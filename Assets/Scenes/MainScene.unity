@@ -551,19 +551,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 896349883}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 896349886}
-        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: PlayPressed
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &896349883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -624,7 +612,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 896349879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39e13718e42e2fb47b74d2d5c43aed2b, type: 3}
+  m_Script: {fileID: 11500000, guid: 95e62c82a33c0d948a9c301b468aa3e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: LoadScreen
