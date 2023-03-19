@@ -395,8 +395,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 193.00024, y: -269}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 346, y: -274}
+  m_SizeDelta: {x: 474.6804, y: 65.696}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &369192275
 MonoBehaviour:
@@ -942,6 +942,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: NewScene
   loadingScreen: {fileID: 1904642500}
+  slider: {fileID: 994688858}
+  _progressProcent: {fileID: 369192275}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,7 +1038,6 @@ GameObject:
   m_Component:
   - component: {fileID: 994688857}
   - component: {fileID: 994688858}
-  - component: {fileID: 994688859}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -1117,19 +1118,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &994688859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994688856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e881e6f587b9ef42b7b11185bb089f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _slider: {fileID: 994688858}
 --- !u!1 &1177257862
 GameObject:
   m_ObjectHideFlags: 0
